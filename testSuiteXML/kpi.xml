@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KPI_PRS_CriticalCases + ExposeFunctions + Hacklink + Delegate and change DPM"
+	parallel="false">
+	<listeners>
+		<listener class-name="org.niteco.qa.listener.LocalTestListener" />
+		<listener class-name="org.niteco.qa.listener.LocalSuiteListener" />
+		<listener class-name="org.niteco.qa.listener.LocalReportListener" />
+	</listeners>
+
+	<test name="KPI_PRS_CriticalCases + ExposeFunctions + Hacklink + Delegate and change DPM"
+		preserve-order="true">
+		<classes>
+			<class name='org.niteco.qa.kpi.KPI_PRS_CriticalCase'>
+			</class>
+			<class name='org.niteco.qa.kpi.KPI_ExposeFunction'>
+			</class>
+			<class name='org.niteco.qa.kpi.KPI_DelegateOrChangeDPM'>
+			</class>
+		</classes>
+	</test>
+</suite>
